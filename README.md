@@ -6,6 +6,18 @@ Inciando os estudos na linguem C. A linguegem foi criada por Dennis Ritchie na d
 
 int main(){
     printf("Hello World!\n");
+
+    int numero;
+    int n;
+
+    printf("Digite um numero:");
+    scanf("%d", &numero);
+
+    printf("Digite outro numero");
+    scanf("%d",&n);
+
+    printf("%d + %d = %d\n",numero,n,numero + n);
+
     return 0; //apos exibir o 'return 0' no seu programa, significa que deu tudo certo e não há nenhum erro.
 }
 ´´´
