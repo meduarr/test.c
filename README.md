@@ -8,19 +8,20 @@ graças à sua performance, portabilidade e controle direto sobre o hardware.
 #include <stdio.h> //é um tipo de biblioteca para entrada e saída como 'printf'
 
 int main(){
-    printf("Hello World!\n");
+    int logica;
 
-    int numero;
-    int n;
+    printf("Digite um numero inteiro: \n");
+    scanf("%d", &logica);
 
-    printf("Digite um numero:");
-    scanf("%d", &numero);
-
-    printf("Digite outro numero");
-    scanf("%d",&n);
-
-    printf("%d + %d = %d\n",numero,n,numero + n);
-
-    return 0; //apos exibir o 'return 0' no seu programa, significa que deu tudo certo e não há nenhum erro.
+    if( logica % 2 == 0){
+        printf ("O numero %d e par \n", logica);
 }
+
+    else{
+        printf("O numero %d e impar. \n", logica);
+}
+
+   return 0; //apos exibir o 'return 0' no seu programa, significa que deu tudo certo e não há nenhum erro.
+}
+
 ´´´
